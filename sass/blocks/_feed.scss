@@ -1,0 +1,51 @@
+.feed{
+    padding: 83px 0 71px 0;
+    hr{
+        width: 940px;
+        height: 2px;
+        border: none;
+        margin: 50px 0;
+        background-color: #f6f6f6;
+    }
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 57px;
+        &:first-of-type{
+            margin-top: 70px;
+        }
+    }
+    &__img{
+        width: 169px;
+        height: 169px;
+        margin-right: 60px;
+    }
+    &__subtitle{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: normal;
+        text-align: left;
+        color: #0d0d0d;
+        margin-bottom: 10px;
+    }
+    &__amount{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: normal;
+        text-align: left;
+        color: #646464;
+        margin-bottom: 19px;
+    }
+    &__descr{
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: normal;
+        line-height: normal;
+        color: #0d0d0d;
+    }
+}
+
+
+
+
+
